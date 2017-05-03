@@ -30,6 +30,10 @@ public class PlayerMove : MonoBehaviour {
             {
                 other.gameObject.GetComponent<Open>().Interact();
             }
+            else if (other.gameObject.name == "Desk" || other.gameObject.name == "TV")
+            {
+                other.gameObject.GetComponent<TurnOn>().Interact();
+            }
             //Debug.Log("Interacting");
         }
     }
