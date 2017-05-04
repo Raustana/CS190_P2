@@ -5,12 +5,15 @@ using UnityEngine;
 public class TurnOn : MonoBehaviour {
 
     public Light monitor;
+    public Light screenGlow;
     public GameObject screen;
     bool onoff = false;
     public float rate;
     public float max;
     float changing = 0;
     Color shade;
+
+    public GameObject pickup;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +28,7 @@ public class TurnOn : MonoBehaviour {
         if (onoff)
         {
             monitor.enabled = true;
+            screenGlow.enabled = true;
             if (monitor.intensity < max)
             {
                 monitor.intensity += rate * Time.deltaTime;
@@ -60,8 +64,11 @@ public class TurnOn : MonoBehaviour {
         {
             onoff = false;
             monitor.enabled = false;
+            screenGlow.enabled = false;
         }
         else
             onoff = true;
+        if(pickup != null)
+            pickup.SetActive(true);
     }
 }

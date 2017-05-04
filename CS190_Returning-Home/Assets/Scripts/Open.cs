@@ -11,6 +11,8 @@ public class Open : MonoBehaviour {
     public float timer = 0;
     Quaternion original;
 
+    public GameObject pickup;
+
     // Use this for initialization
     void Start () {
         original = transform.rotation;
@@ -48,12 +50,16 @@ public class Open : MonoBehaviour {
 
     public void Interact()
     {
+        if (playerHere)
+            playerHere = false;
         // Only rotate if door is not at the maximum position.
-        if(Quaternion.Angle(transform.rotation, original) < original[1] + max)
+        else if(Quaternion.Angle(transform.rotation, original) < original[1] + max)
         {
             opened = true;
             playerHere = true;
             timer = 5;
         }
+        if (pickup != null)
+            pickup.SetActive(true);
     }
 }

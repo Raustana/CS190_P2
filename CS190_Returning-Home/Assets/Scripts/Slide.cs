@@ -9,6 +9,8 @@ public class Slide : MonoBehaviour {
     public float speed = 0.8f;
     Vector3 original;
 
+    public GameObject pickup;
+
 	// Use this for initialization
 	void Start () {
         original = transform.position;
@@ -40,11 +42,15 @@ public class Slide : MonoBehaviour {
 
     public void Interact ()
     {
+        if (playerHere)
+            playerHere = false;
         //Only open if the door is not at the end position.
         if (transform.position.x < original.x + 1.5)
         {
             opened = true;
             playerHere = true;
         }
+        if (pickup != null)
+            pickup.SetActive(true);
     }
 }
