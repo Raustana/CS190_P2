@@ -25,20 +25,16 @@ public class PlayerMove : MonoBehaviour {
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-    void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if (hit.gameObject.name == "Pickup")
-        {
-            Destroy(hit.gameObject);
-            pickups += 1;
-        }
-    }
-
     void OnTriggerEnter (Collider other)
     {
         if(other.gameObject.name == "RoomLight")
         {
             other.gameObject.GetComponent<LightsOn>().playerHere = true;
+        }
+        if (other.gameObject.name == "Pickup")
+        {
+            Destroy(other.gameObject);
+            pickups += 1;
         }
     }
 

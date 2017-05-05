@@ -6,6 +6,7 @@ public class PickupAppear : MonoBehaviour {
 
     [Tooltip("Sets the time to reset to on run")]
     public float timer = 0;
+    public float intensity = 3;
     float interval;
     bool growing = true;
 
@@ -38,7 +39,7 @@ public class PickupAppear : MonoBehaviour {
                 growing = true;
             }
 
-            this.GetComponent<Light>().intensity = 3 * timer / interval;
+            this.GetComponent<Light>().intensity = intensity * timer / interval;
 
         }
 	}
