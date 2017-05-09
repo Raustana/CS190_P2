@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{092B85A0-1BC5-4903-85A5-3E23E14480B6}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{092B85A0-1BC5-4903-85A5-3E23E14480B6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Door_Open" ID="{3B6C3D5C-63B4-41B2-9173-A3DD5BB0FFF3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A2DD25BF-BA46-4BCA-9ED4-0AC8F894E1C6}" ShortID="536861173" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{31E756F2-C4BC-4641-8DBD-E9F7A3C630F1}" Global="false">
+									<ObjectRef Name="DoorWood 6018_19_3" ID="{DF99489E-16C1-4709-9AC8-EEB3835A146D}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Television_On" ID="{EE0A9DE7-5336-448A-AF00-31CF0AD8800E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7D69BDF6-2612-4E55-8E2D-923BE581CA01}" ShortID="113636636" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5F3BCBD7-4ABC-4A8B-AD81-B164238E4F9E}" Global="false">
+									<ObjectRef Name="Television 6058_71_1" ID="{C836119C-77DA-4EB9-9CBB-0FCD20B9403B}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Garage_Close" ID="{F8737D4E-49C0-4920-9C25-906D5124640C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2B6C080E-02EA-425D-ADFC-0584E1951216}" ShortID="62320928" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B19C5E5E-9ECB-4CE4-973C-1A74CC444CA5}" Global="false">
+									<ObjectRef Name="DoorGarage 6048_22_2" ID="{41410E5D-2F8B-4234-ACA3-2D16D3E1741C}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Toilet" ID="{6C7FFD70-FEF4-4E03-A93D-7748A32A3240}">
+					<ChildrenList>
+						<Action Name="Play" ID="{19D75F8C-692E-491F-B552-7EB4F4CC887D}" ShortID="695651760" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{714F815C-1DBA-451B-B189-8E04B7CAB97F}" Global="false">
+									<ObjectRef Name="ToiletUrinal 6069_03" ID="{A4E1C35A-069D-437E-AB19-96EF97560865}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Couch_Sit" ID="{E40AA360-EAC5-4A53-A52C-0FEA1110F59D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{88E6BD7C-654A-4A87-B65C-717FA9145B50}" ShortID="248262761" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4DC4A21A-3EE9-4916-A3A0-51C3FCBC82DF}" Global="false">
+									<ObjectRef Name="ChairCouch 6010_75_1" ID="{1678C5FD-1192-4A29-87BA-67583347D660}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Glass_Door" ID="{F306F2DB-AE03-4CD4-B536-D4F95C04418F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C0FFF985-38DA-4B74-92C2-B994EF089110}" ShortID="136827843" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{71BAAF2E-7B72-4409-B37B-09A1C990D58A}" Global="false">
+									<ObjectRef Name="DoorPatio 6048_47_2" ID="{7DA1A7F4-D4E7-4FE8-94FF-EB7DE4F02419}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Engine_Off" ID="{6939E05F-D603-401D-B64F-3475499BB702}">
+					<ChildrenList>
+						<Action Name="Play" ID="{07DB8961-5299-4557-AE3D-3380912D2CB7}" ShortID="33692077" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A46ABEB5-A9C6-4A75-A820-69BCE9B69190}" Global="false">
+									<ObjectRef Name="TRK_Land Rover_BBC36_21_04" ID="{9730ED69-0B85-4976-8B2C-2E5B5162EEF5}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fridge_Open" ID="{0C16DD6E-4348-45BD-9AAA-893452829131}">
+					<ChildrenList>
+						<Action Name="Play" ID="{27D3ED3B-961A-4E87-BAF8-6FF66DE4F956}" ShortID="356173267" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D6A2E120-6878-4548-9D34-6C345EEB8DD9}" Global="false">
+									<ObjectRef Name="DoorRefrigerator 6048_49_1" ID="{7407C76B-BA7C-4804-A90F-58654E15ADBC}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Computer_Typing" ID="{AB3F9820-8848-4231-95EC-8C563918E80C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1F2F3EEF-7866-43FD-B118-3E69C4A0CB57}" ShortID="401771749" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{49594B2E-FF7A-4998-A200-6952BC24735D}" Global="false">
+									<ObjectRef Name="ComputerKeyboard3 6103_72_1" ID="{1B35DDDF-F756-4E71-BE4F-31836E290A4A}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Water_Run" ID="{C32252BC-00EB-46AF-9112-F935430D3DD4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6EC97A39-0ED9-446D-A938-B8B2AD8D897D}" ShortID="158669653" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F8B5FD76-5536-4910-BA4F-DCE5464825AB}" Global="false">
+									<ObjectRef Name="WaterFountain 6060_49_1" ID="{4CFE93A0-5D17-4879-AF40-61A3A5AE4B22}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

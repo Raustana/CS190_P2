@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	291040174	Glass_Door			\Default Work Unit\Glass_Door	
+	535830432	Door_Open			\Default Work Unit\Door_Open	
+	543766455	Television_On			\Default Work Unit\Television_On	
+	580245626	Toilet			\Default Work Unit\Toilet	
+	998053453	Engine_Off			\Default Work Unit\Engine_Off	
+	1706561684	Couch_Sit			\Default Work Unit\Couch_Sit	
+	2440369719	Garage_Close			\Default Work Unit\Garage_Close	
+	2594811980	Water_Run			\Default Work Unit\Water_Run	
+	2647449092	Computer_Typing			\Default Work Unit\Computer_Typing	
+	2916123785	Fridge_Open			\Default Work Unit\Fridge_Open	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	233413396	DoorRefrigerator 6048_49_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\DoorRefrigerator 6048_49_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorRefrigerator 6048_49_1		118848
+	260153768	ChairCouch 6010_75_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\ChairCouch 6010_75_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChairCouch 6010_75_1		426048
+	314824345	DoorPatio 6048_47_2	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\DoorPatio 6048_47_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorPatio 6048_47_2		350272
+	315914697	WaterFountain 6060_49_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\WaterFountain 6060_49_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterFountain 6060_49_1		845888
+	317251721	ToiletUrinal 6069_03	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\ToiletUrinal 6069_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ToiletUrinal 6069_03		1574976
+	323801357	TRK_Land Rover_BBC36_21_04	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\TRK_Land Rover_BBC36_21_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\TRK_Land Rover_BBC36_21_04		1937472
+	367363256	ComputerKeyboard3 6103_72_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\ComputerKeyboard3 6103_72_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ComputerKeyboard3 6103_72_1		131136
+	429089899	Television 6058_71_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\Television 6058_71_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Television 6058_71_1		5687360
+	825453000	DoorWood 6018_19_3	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\DoorWood 6018_19_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorWood 6018_19_3		176192
+	983020588	DoorGarage 6048_22_2	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\SFX\DoorGarage 6048_22_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorGarage 6048_22_2		2084928
+
