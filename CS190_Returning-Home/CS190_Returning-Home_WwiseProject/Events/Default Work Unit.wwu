@@ -108,9 +108,45 @@
 				<Event Name="Water_Run" ID="{C32252BC-00EB-46AF-9112-F935430D3DD4}">
 					<ChildrenList>
 						<Action Name="Play" ID="{6EC97A39-0ED9-446D-A938-B8B2AD8D897D}" ShortID="158669653" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{F8B5FD76-5536-4910-BA4F-DCE5464825AB}" Global="false">
 									<ObjectRef Name="WaterFountain 6060_49_1" ID="{4CFE93A0-5D17-4879-AF40-61A3A5AE4B22}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Close" ID="{6447C5D9-366F-42A9-B1B0-3FE554EEBF01}">
+					<ChildrenList>
+						<Action Name="Play" ID="{534DAA7C-91F9-4065-856E-35365589E3A0}" ShortID="437508770" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B3EFE9C0-2DA2-453D-86D1-E2BEFDE15BE3}" Global="false">
+									<ObjectRef Name="DoorWood 6018_19_4" ID="{65329E98-E33A-4BF1-9DCF-BDEA3D8A7EB7}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fridge_Close" ID="{66539369-3433-453A-9C0D-B8555FA4042E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{74E82E5E-8369-499E-8F6A-0C811E1CC872}" ShortID="723463074" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{03258405-EDB4-4CBC-89C4-CA6B955A5941}" Global="false">
+									<ObjectRef Name="DoorRefrigerator 6048_49_2" ID="{CD875299-499A-4CB9-A775-C6BC01D92898}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Glass_Close" ID="{AE8C6020-FA04-4D8F-AD9A-14418F0C7F47}">
+					<ChildrenList>
+						<Action Name="Play" ID="{21F6D39D-7E57-419E-B8E4-71BBD18708F8}" ShortID="238354555" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C606DF52-BBCF-471C-9118-03C0FDD6F837}" Global="false">
+									<ObjectRef Name="DoorPatio 6018_26_2" ID="{E07F0128-CA31-41EF-8DE6-F0329FF21271}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
 								</Element>
 							</ElementList>
 						</Action>

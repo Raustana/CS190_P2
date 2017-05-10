@@ -8,6 +8,7 @@ public class Slide : MonoBehaviour {
     public bool playerHere = false;
     public float speed = 0.8f;
     Vector3 original;
+    bool played = false;
 
     public GameObject pickup;
 
@@ -33,8 +34,13 @@ public class Slide : MonoBehaviour {
         if (!playerHere && transform.position.x > original.x)
         {
             transform.Translate(new Vector3(-1 * speed * Time.deltaTime, 0, 0));
+            if(!played)
+            {
+                GetComponent<DoorClose>().Closing();
+                played = true;
+            }
         }
-        if (transform.position.x <= original.x)
+        if (transform.position.x < original.x)
         {
             transform.position = original;
         }
@@ -49,6 +55,8 @@ public class Slide : MonoBehaviour {
         {
             opened = true;
             playerHere = true;
+            GetComponent<DoorOpen>().Opening();
+            played = false;
         }
         if (pickup != null)
             pickup.SetActive(true);

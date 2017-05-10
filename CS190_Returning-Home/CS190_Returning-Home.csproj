@@ -86,6 +86,10 @@
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Slide.cs" />
     <Compile Include="Assets\Scripts\TurnOn.cs" />
+    <Compile Include="Assets\Scripts\Wwise_Triggers\DoorClose.cs" />
+    <Compile Include="Assets\Scripts\Wwise_Triggers\DoorOpen.cs" />
+    <Compile Include="Assets\Scripts\Wwise_Triggers\TVoff.cs" />
+    <Compile Include="Assets\Scripts\Wwise_Triggers\TVon.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkActionOnEventType.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkAudioFormat.cs" />

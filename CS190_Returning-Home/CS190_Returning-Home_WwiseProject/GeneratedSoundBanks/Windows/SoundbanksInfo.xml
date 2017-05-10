@@ -23,10 +23,13 @@
 			<IncludedEvents>
 				<Event Id="2647449092" Name="Computer_Typing" ObjectPath="\Events\Default Work Unit\Computer_Typing"/>
 				<Event Id="1706561684" Name="Couch_Sit" ObjectPath="\Events\Default Work Unit\Couch_Sit"/>
+				<Event Id="128625444" Name="Door_Close" ObjectPath="\Events\Default Work Unit\Door_Close"/>
 				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\Door_Open"/>
 				<Event Id="998053453" Name="Engine_Off" ObjectPath="\Events\Default Work Unit\Engine_Off"/>
+				<Event Id="2578282063" Name="Fridge_Close" ObjectPath="\Events\Default Work Unit\Fridge_Close"/>
 				<Event Id="2916123785" Name="Fridge_Open" ObjectPath="\Events\Default Work Unit\Fridge_Open"/>
 				<Event Id="2440369719" Name="Garage_Close" ObjectPath="\Events\Default Work Unit\Garage_Close"/>
+				<Event Id="633390694" Name="Glass_Close" ObjectPath="\Events\Default Work Unit\Glass_Close"/>
 				<Event Id="291040174" Name="Glass_Door" ObjectPath="\Events\Default Work Unit\Glass_Door"/>
 				<Event Id="543766455" Name="Television_On" ObjectPath="\Events\Default Work Unit\Television_On"/>
 				<Event Id="580245626" Name="Toilet" ObjectPath="\Events\Default Work Unit\Toilet"/>
@@ -65,9 +68,21 @@
 					<ShortName>Television 6058_71_1.wav</ShortName>
 					<Path>SFX\Television 6058_71_1_9E69E797.wem</Path>
 				</File>
+				<File Id="599411685" Language="SFX">
+					<ShortName>DoorPatio 6018_26_2.wav</ShortName>
+					<Path>SFX\DoorPatio 6018_26_2_9E69E797.wem</Path>
+				</File>
+				<File Id="667181505" Language="SFX">
+					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
+					<Path>SFX\DoorRefrigerator 6048_49_2_9E69E797.wem</Path>
+				</File>
 				<File Id="825453000" Language="SFX">
 					<ShortName>DoorWood 6018_19_3.wav</ShortName>
 					<Path>SFX\DoorWood 6018_19_3_9E69E797.wem</Path>
+				</File>
+				<File Id="870425651" Language="SFX">
+					<ShortName>DoorWood 6018_19_4.wav</ShortName>
+					<Path>SFX\DoorWood 6018_19_4_9E69E797.wem</Path>
 				</File>
 				<File Id="983020588" Language="SFX">
 					<ShortName>DoorGarage 6048_22_2.wav</ShortName>

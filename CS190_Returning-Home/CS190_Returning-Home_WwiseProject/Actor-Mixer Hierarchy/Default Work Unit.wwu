@@ -227,6 +227,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="DoorWood 6018_19_4" ID="{65329E98-E33A-4BF1-9DCF-BDEA3D8A7EB7}" ShortID="228745316" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3F3F356-9205-4C87-B98C-3CD2F7A837DC}"/>
@@ -246,6 +253,20 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="FootstepsConcrete 6016_06_1" ID="{14842157-9FC5-48D0-A82F-61F4FEA9E127}" ShortID="160151356" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5C3D7716-BACA-4BA1-B1AD-38AC36366540}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="1000"/>
+											<Property Name="Min" Type="Real64" Value="-1000"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3F3F356-9205-4C87-B98C-3CD2F7A837DC}"/>
@@ -473,6 +494,51 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="WaterFountain 6060_49_1" ID="{86518048-4816-45AE-B9DE-0619C57148DE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DoorPatio 6018_26_2" ID="{E07F0128-CA31-41EF-8DE6-F0329FF21271}" ShortID="48521014" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3F3F356-9205-4C87-B98C-3CD2F7A837DC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13C4DB6D-DBB5-4FC1-9757-7FD07B9BAD6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorPatio 6018_26_2" ID="{DDB150F6-67B9-49F3-91C2-0CD70F1EE774}" ShortID="599411685">
+							<Language>SFX</Language>
+							<AudioFile>DoorPatio 6018_26_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorPatio 6018_26_2" ID="{DDB150F6-67B9-49F3-91C2-0CD70F1EE774}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DoorRefrigerator 6048_49_2" ID="{CD875299-499A-4CB9-A775-C6BC01D92898}" ShortID="953273689" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3F3F356-9205-4C87-B98C-3CD2F7A837DC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13C4DB6D-DBB5-4FC1-9757-7FD07B9BAD6B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorRefrigerator 6048_49_2" ID="{03389668-031F-4877-94AE-16DB17A85F48}" ShortID="667181505">
+							<Language>SFX</Language>
+							<AudioFile>DoorRefrigerator 6048_49_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorRefrigerator 6048_49_2" ID="{03389668-031F-4877-94AE-16DB17A85F48}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

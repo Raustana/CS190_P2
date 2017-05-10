@@ -8,12 +8,15 @@
 						<ObjectRef Name="Engine_Off" ID="{6939E05F-D603-401D-B64F-3475499BB702}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Door_Open" ID="{3B6C3D5C-63B4-41B2-9173-A3DD5BB0FFF3}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Computer_Typing" ID="{AB3F9820-8848-4231-95EC-8C563918E80C}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Door_Close" ID="{6447C5D9-366F-42A9-B1B0-3FE554EEBF01}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Television_On" ID="{EE0A9DE7-5336-448A-AF00-31CF0AD8800E}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fridge_Close" ID="{66539369-3433-453A-9C0D-B8555FA4042E}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fridge_Open" ID="{0C16DD6E-4348-45BD-9AAA-893452829131}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Water_Run" ID="{C32252BC-00EB-46AF-9112-F935430D3DD4}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Garage_Close" ID="{F8737D4E-49C0-4920-9C25-906D5124640C}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Couch_Sit" ID="{E40AA360-EAC5-4A53-A52C-0FEA1110F59D}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Glass_Door" ID="{F306F2DB-AE03-4CD4-B536-D4F95C04418F}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Glass_Close" ID="{AE8C6020-FA04-4D8F-AD9A-14418F0C7F47}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Toilet" ID="{6C7FFD70-FEF4-4E03-A93D-7748A32A3240}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

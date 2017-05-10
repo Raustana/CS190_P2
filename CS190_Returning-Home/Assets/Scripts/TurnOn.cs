@@ -65,9 +65,13 @@ public class TurnOn : MonoBehaviour {
             onoff = false;
             monitor.enabled = false;
             screenGlow.enabled = false;
+            GetComponent<TVoff>().TurningOff();
         }
         else
+        {
             onoff = true;
+            GetComponent<TVon>().TurningOn();
+        }
         if(pickup != null)
             pickup.SetActive(true);
     }
