@@ -10,13 +10,15 @@ public class Open : MonoBehaviour {
     public float max;
     public float timer = 0;
     Quaternion original;
-    bool played = false;
+    bool played = true;
+    bool pickedUp = false;
 
     public GameObject pickup;
 
     // Use this for initialization
     void Start () {
         original = transform.rotation;
+        pickedUp = false;
         //Debug.Log(original[1] + max);
     }
 	
@@ -49,7 +51,8 @@ public class Open : MonoBehaviour {
             timer = 0;
             if (!played)
             {
-                GetComponent<DoorClose>().Closing();
+                if(GetComponent<DoorClose>() != null)
+                    GetComponent<DoorClose>().Closing();
                 played = true;
             }
         }
@@ -68,10 +71,14 @@ public class Open : MonoBehaviour {
             opened = true;
             playerHere = true;
             timer = 5;
-            GetComponent<DoorOpen>().Opening();
+            if (GetComponent<DoorOpen>() != null)
+                GetComponent<DoorOpen>().Opening();
             played = false;
         }
-        if (pickup != null)
+        if (!pickedUp && pickup != null)
+        {
             pickup.SetActive(true);
+            pickedUp = true;
+        }
     }
 }

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2594811980	Water_Run			\Default Work Unit\Water_Run	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	315914697	WaterFountain 6060_49_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\WaterFountain 6060_49_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterFountain 6060_49_1		845888
+

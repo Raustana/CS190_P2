@@ -8,6 +8,7 @@ public class TurnOn : MonoBehaviour {
     public Light screenGlow;
     public GameObject screen;
     bool onoff = false;
+    bool pickedUp = false;
     public float rate;
     public float max;
     float changing = 0;
@@ -21,6 +22,8 @@ public class TurnOn : MonoBehaviour {
         shade = screen.GetComponent<Renderer>().material.color;
         shade = new Color(shade.r, shade.g, shade.b, 0);
         screen.GetComponent<Renderer>().material.color = shade;
+
+        pickedUp = false;
     }
 
     // Update is called once per frame
@@ -65,14 +68,19 @@ public class TurnOn : MonoBehaviour {
             onoff = false;
             monitor.enabled = false;
             screenGlow.enabled = false;
-            GetComponent<TVoff>().TurningOff();
+            if(GetComponent<TVoff>() != null)
+                GetComponent<TVoff>().TurningOff();
         }
         else
         {
             onoff = true;
-            GetComponent<TVon>().TurningOn();
+            if (GetComponent<TVon>() != null)
+                GetComponent<TVon>().TurningOn();
         }
-        if(pickup != null)
+        if (!pickedUp && pickup != null)
+        {
             pickup.SetActive(true);
+            pickedUp = true;
+        }
     }
 }

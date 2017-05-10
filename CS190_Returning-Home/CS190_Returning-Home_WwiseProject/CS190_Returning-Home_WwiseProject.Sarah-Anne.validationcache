@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1921052345" DateHigh="30591262"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="640011024" DateHigh="30591325"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="785661486" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="786371984" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1278556548" DateHigh="30591122"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="788058358" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1487374559" DateHigh="30590807"/>
-	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\CS190_Returning-Home_WwiseProject.Sarah-Anne.wsettings" DateLow="568824213" DateHigh="30591239"/>
-	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\CS190_Returning-Home_WwiseProject.wproj" DateLow="790600343" DateHigh="30591121"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\CS190_Returning-Home_WwiseProject.Sarah-Anne.wsettings" DateLow="3829152198" DateHigh="30591313"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\CS190_Returning-Home_WwiseProject.wproj" DateLow="3055411957" DateHigh="30591313"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="791330897" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Effects\Default Work Unit.wwu" DateLow="792211587" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Effects\Factory Effects.wwu" DateLow="1487454616" DateHigh="30590807"/>
-	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Events\Default Work Unit.wwu" DateLow="1921272504" DateHigh="30591262"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Effects\Send to Lucas.wwu" DateLow="2742140476" DateHigh="30591307"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Events\Default Work Unit.wwu" DateLow="3671168227" DateHigh="30591317"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Events\Send to Lucas.wwu" DateLow="2742140476" DateHigh="30591307"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="794129595" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="795625811" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1487574701" DateHigh="30590807"/>
@@ -20,7 +22,7 @@
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Presets\Default Work Unit.wwu" DateLow="801645390" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Queries\Default Work Unit.wwu" DateLow="802881271" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Queries\Factory Queries.wwu" DateLow="1487704789" DateHigh="30590807"/>
-	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2970481584" DateHigh="30591263"/>
+	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3124238247" DateHigh="30591323"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="805157869" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\States\Default Work Unit.wwu" DateLow="806268660" DateHigh="30591121"/>
 	<ValidationCacheItem File="C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\Switches\Default Work Unit.wwu" DateLow="4134845737" DateHigh="30591258"/>

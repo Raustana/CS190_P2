@@ -8,13 +8,15 @@ public class Slide : MonoBehaviour {
     public bool playerHere = false;
     public float speed = 0.8f;
     Vector3 original;
-    bool played = false;
+    bool played = true;
+    bool pickedUp = false;
 
     public GameObject pickup;
 
 	// Use this for initialization
 	void Start () {
         original = transform.position;
+        pickedUp = false;
     }
 	
 	// Update is called once per frame
@@ -36,7 +38,8 @@ public class Slide : MonoBehaviour {
             transform.Translate(new Vector3(-1 * speed * Time.deltaTime, 0, 0));
             if(!played)
             {
-                GetComponent<DoorClose>().Closing();
+                if (GetComponent<DoorClose>() != null)
+                    GetComponent<DoorClose>().Closing();
                 played = true;
             }
         }
@@ -55,10 +58,14 @@ public class Slide : MonoBehaviour {
         {
             opened = true;
             playerHere = true;
-            GetComponent<DoorOpen>().Opening();
+            if (GetComponent<DoorOpen>() != null)
+                GetComponent<DoorOpen>().Opening();
             played = false;
         }
-        if (pickup != null)
+        if (!pickedUp && pickup != null)
+        {
             pickup.SetActive(true);
+            pickedUp = true;
+        }
     }
 }

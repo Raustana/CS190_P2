@@ -152,6 +152,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Bird_Chirp" ID="{3152E6D2-D901-490A-ACB4-CE4B0B0C37D6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{046EB3D7-06C7-4B38-9716-385FFA935AFB}" ShortID="377515992" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6B2F95CB-FFD5-410F-B226-C0884BDA646A}" Global="false">
+									<ObjectRef Name="Birds 6038_08" ID="{6DB21D47-F210-48B7-8822-D0C919D7462A}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{7BCD38A0-EAD9-46C3-9C7B-B78149150F47}" ShortID="414463132" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6CEC29C4-C807-4B04-84CD-4F02E6D05870}" Global="false">
+									<ObjectRef Name="AMB_Australia, Resident__7010_06_01" ID="{840E2959-6E55-4221-854C-7B231DC8135B}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="_Foot_Player" ID="{0799A5C4-0847-4EBC-95A4-F61555B17E83}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DF48BAA4-E4C5-4262-AE49-1862D5CFC8B8}" ShortID="55309822" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4CD69659-04AC-4120-AC48-D7270E3BF640}" Global="false">
+									<ObjectRef Name="Footsteps" ID="{FB4F24E0-716B-4C59-8D04-6216C9F76E7C}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

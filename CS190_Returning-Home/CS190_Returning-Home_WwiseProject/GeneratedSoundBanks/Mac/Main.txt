@@ -12,9 +12,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	2594811980	Water_Run			\Default Work Unit\Water_Run	
 	2647449092	Computer_Typing			\Default Work Unit\Computer_Typing	
 	2916123785	Fridge_Open			\Default Work Unit\Fridge_Open	
+	3769161284	_Foot_Player			\Default Work Unit\_Foot_Player	
+	4011507809	Bird_Chirp			\Default Work Unit\Bird_Chirp	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4050929301	Materials			\Default Work Unit\Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Materials			
+	2412606308	Carpet	Materials			
+	2637588553	Tile	Materials			
+	4248645337	Grass	Materials			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	154631321	FootstepsMarble 6017_66_1 EDIT	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\FootstepsMarble 6017_66_1 EDIT_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FootstepsMarble 6017_66_1 EDIT		141184
 	233413396	DoorRefrigerator 6048_49_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\DoorRefrigerator 6048_49_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorRefrigerator 6048_49_1		118848
+	237481061	FootstepsConcrete 6016_06_1 EDIT2	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\FootstepsConcrete 6016_06_1 EDIT2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FootstepsConcrete 6016_06_1 EDIT2		81400
 	260153768	ChairCouch 6010_75_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\ChairCouch 6010_75_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChairCouch 6010_75_1		426048
 	314824345	DoorPatio 6048_47_2	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\DoorPatio 6048_47_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorPatio 6048_47_2		350272
 	315914697	WaterFountain 6060_49_1	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\WaterFountain 6060_49_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterFountain 6060_49_1		845888
@@ -26,5 +39,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	667181505	DoorRefrigerator 6048_49_2	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\DoorRefrigerator 6048_49_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorRefrigerator 6048_49_2		92224
 	825453000	DoorWood 6018_19_3	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\DoorWood 6018_19_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorWood 6018_19_3		176192
 	870425651	DoorWood 6018_19_4	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\DoorWood 6018_19_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorWood 6018_19_4		120896
+	881905503	AMB_Australia, Resident__7010_06_01	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\AMB_Australia, Resident._7010_06_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Australia, Resident__7010_06_01		31758400
+	882258353	FootstepsDirt 6016_87_1 EDIT	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\FootstepsDirt 6016_87_1 EDIT_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Carpet\FootstepsDirt 6016_87_1 EDIT		106884
 	983020588	DoorGarage 6048_22_2	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\DoorGarage 6048_22_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorGarage 6048_22_2		2084928
+	1028196894	Birds 6038_08	C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Mac\SFX\Birds 6038_08_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds 6038_08		8101952
 

@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID _FOOT_PLAYER = 3769161284U;
+        static const AkUniqueID BIRD_CHIRP = 4011507809U;
         static const AkUniqueID COMPUTER_TYPING = 2647449092U;
         static const AkUniqueID COUCH_SIT = 1706561684U;
         static const AkUniqueID DOOR_CLOSE = 128625444U;

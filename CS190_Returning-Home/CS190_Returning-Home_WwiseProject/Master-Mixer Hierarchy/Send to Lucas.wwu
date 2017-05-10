@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8AC3502-4009-4A97-A0BB-965EE08DC6DD}" SchemaVersion="75" RootDocumentID="{34E9C098-5CA9-44C5-A705-ABF54751448F}">
+	<SoundBanks>
+		<WorkUnit Name="Send to Lucas" ID="{F8AC3502-4009-4A97-A0BB-965EE08DC6DD}" OwnerID="{34E9C098-5CA9-44C5-A705-ABF54751448F}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Send_to_Lucas1" ID="{7CD114DA-F652-4290-9540-31C839BA5D88}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Water_Run" ID="{C32252BC-00EB-46AF-9112-F935430D3DD4}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Walk_Tile" ID="{AC1F9C55-B287-4787-A573-2281A7810D65}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Walk_Grass" ID="{E3F93B9A-3AB7-4EDE-A30A-5B0157EF9F0E}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
