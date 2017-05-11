@@ -181,6 +181,131 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="_Pickups" ID="{73AF0690-D9BD-432D-86D3-DF850B70E39D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{84EB16CC-4372-4FD2-9638-207E524CB29C}" ShortID="573056331" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4250DD08-A6F3-4BCC-916A-5C7C9760C689}" Global="false">
+									<ObjectRef Name="VibeTone1" ID="{10C1CB6C-3295-4924-BDC7-C6C88E112ABB}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{E45A0A5B-8BFB-42E5-B9CA-3C69E910A17A}" ShortID="609883040" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{BBAF7137-D12D-49FA-BD1C-9638AE27D08D}" Global="false">
+									<ObjectRef Name="VibeTone2" ID="{BA184BD1-D7EB-4EF4-8750-69A3ACC4D8F1}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{74A43737-DD47-4D5E-B694-FD1984F06E27}" ShortID="462738942" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{9ACE3FA6-333E-4D3E-AE68-099C04F2A929}" Global="false">
+									<ObjectRef Name="VibeTone3" ID="{FE7DD519-F0B2-4B22-A429-59AB24765104}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{2DBEC25E-E255-4230-9952-595FA3F4A53C}" ShortID="306489001" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{3B00AACE-8A24-43D8-B557-F14A4E4B0927}" Global="false">
+									<ObjectRef Name="VibeTone4" ID="{7244A7CE-B79E-4D71-BFD4-70D65736C9FC}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{CEB76BB9-A0C8-4D71-B298-52B8A8EBC24C}" ShortID="107803606" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{AAB46B8A-6F25-437D-B19E-254A800B855D}" Global="false">
+									<ObjectRef Name="VibeToneLast" ID="{D0C8C969-ADBF-43FF-83C3-95001EE6C3C6}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{329490DE-C965-42A7-B125-D56B6C3E7DB3}" ShortID="72495829" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D14F8895-4997-4F68-843D-E821444F14A4}" Global="false">
+									<ObjectRef Name="MarimbaLive1" ID="{3CA02C31-29E1-4013-9DB7-5D2AB141D742}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{C82888AB-1086-4A9E-905C-C5C4ADE5DBA3}" ShortID="979643046" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{2DD877A9-B931-4FC5-968C-719BBD8170CF}" Global="false">
+									<ObjectRef Name="MarimbaLive2" ID="{6E5386F4-5CB3-4838-A695-0A9BE265A486}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{FAF5F160-04C7-42B2-92EF-7559D9F49B1F}" ShortID="667243678" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{66FDC5E9-7055-42BD-83AC-C23B4E3E55E1}" Global="false">
+									<ObjectRef Name="MarimbaLive3" ID="{4CB95363-878A-4041-90E7-24F332469171}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{D4524C0D-8D4A-497E-9063-962CB4FCE5BF}" ShortID="677910274" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{30533F9D-46F8-4F89-A261-2A4A4AC98243}" Global="false">
+									<ObjectRef Name="MarimbaLive4" ID="{348BB7D9-DD6F-4450-8710-A2E819A5D1C1}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{124ECDAD-6661-4CA6-BA15-0CB0EB3D71BF}" ShortID="992612254" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{F2F54F7B-53C4-44CB-AB3D-7A0B7363D4BB}" Global="false">
+									<ObjectRef Name="MarimbaLiveFinal" ID="{2F2A084C-8A53-4B87-95CE-EE70592C2429}" WorkUnitID="{6581A9CC-7C38-491D-87B3-43A3B570883A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

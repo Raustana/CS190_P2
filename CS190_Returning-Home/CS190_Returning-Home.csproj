@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\Wwise_Triggers\TVoff.cs" />
     <Compile Include="Assets\Scripts\Wwise_Triggers\TVon.cs" />
     <Compile Include="Assets\Scripts\Wwise_Triggers\_Footsteps.cs" />
+    <Compile Include="Assets\Scripts\Wwise_Triggers\_PickupPing.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AKRESULT.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkActionOnEventType.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Common\AkAudioFormat.cs" />

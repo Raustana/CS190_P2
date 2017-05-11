@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{52C8A994-C173-4D2A-B240-F6E08F3A1771}" SchemaVersion="75">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{52C8A994-C173-4D2A-B240-F6E08F3A1771}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{52C8A994-C173-4D2A-B240-F6E08F3A1771}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Pickups" ID="{112A8AEC-503A-4B6D-B6CB-9854F971E956}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

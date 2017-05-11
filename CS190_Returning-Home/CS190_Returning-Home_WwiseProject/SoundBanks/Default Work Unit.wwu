@@ -9,6 +9,7 @@
 						<ObjectRef Name="Door_Open" ID="{3B6C3D5C-63B4-41B2-9173-A3DD5BB0FFF3}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Computer_Typing" ID="{AB3F9820-8848-4231-95EC-8C563918E80C}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Door_Close" ID="{6447C5D9-366F-42A9-B1B0-3FE554EEBF01}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="_Pickups" ID="{73AF0690-D9BD-432D-86D3-DF850B70E39D}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Television_On" ID="{EE0A9DE7-5336-448A-AF00-31CF0AD8800E}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fridge_Close" ID="{66539369-3433-453A-9C0D-B8555FA4042E}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fridge_Open" ID="{0C16DD6E-4348-45BD-9AAA-893452829131}" WorkUnitID="{D7CD68F1-91AC-4600-B2DF-D3E1A78061FD}" Filter="7" Origin="Manual"/>

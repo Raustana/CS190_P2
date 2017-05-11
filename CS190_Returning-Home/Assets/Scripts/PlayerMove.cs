@@ -77,6 +77,7 @@ public class PlayerMove : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             pickups += 1;
+            AkSoundEngine.SetRTPCValue("Pickups", pickups);
         }
     }
 
