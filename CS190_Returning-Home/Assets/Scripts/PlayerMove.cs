@@ -44,22 +44,22 @@ public class PlayerMove : MonoBehaviour {
     {
         if (hit.gameObject.transform.position.y < this.gameObject.transform.position.y)
         {
-            if (hit.gameObject.tag == "Concrete")
+            if (hit.gameObject.tag == "Concrete" && groundType != "Concrete")
             {
                 groundType = "Concrete";
                 GetComponent<Footstep_Concrete>().FootstepConcrete();
             }
-            else if (hit.gameObject.tag == "Carpet")
+            else if (hit.gameObject.tag == "Carpet" && groundType != "Carpet")
             {
                 groundType = "Carpet";
                 GetComponent<Footstep_Carpet>().FootstepCarpet();
             }
-            else if (hit.gameObject.tag == "Tile")
+            else if (hit.gameObject.tag == "Tile" && groundType != "Tile")
             {
                 groundType = "Tile";
                 GetComponent<Footstep_Tile>().FootstepTile();
             }
-            else if (hit.gameObject.tag == "Grass")
+            else if (hit.gameObject.tag == "Grass" && groundType != "Grass")
             {
                 groundType = "Grass";
                 GetComponent<Footstep_Grass>().FootstepGrass();

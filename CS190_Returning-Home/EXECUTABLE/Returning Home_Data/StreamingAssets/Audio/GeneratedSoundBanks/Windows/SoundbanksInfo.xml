@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Sarah-Anne\Documents\GitHub\CS190_P2\CS190_Returning-Home\CS190_Returning-Home_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3769161284" Name="_Foot_Player" ObjectPath="\Events\Default Work Unit\_Foot_Player"/>
+				<Event Id="981037167" Name="_Pickups" ObjectPath="\Events\Default Work Unit\_Pickups"/>
+				<Event Id="4011507809" Name="Bird_Chirp" ObjectPath="\Events\Default Work Unit\Bird_Chirp" MaxAttenuation="15.000000"/>
+				<Event Id="2647449092" Name="Computer_Typing" ObjectPath="\Events\Default Work Unit\Computer_Typing"/>
+				<Event Id="1706561684" Name="Couch_Sit" ObjectPath="\Events\Default Work Unit\Couch_Sit"/>
+				<Event Id="128625444" Name="Door_Close" ObjectPath="\Events\Default Work Unit\Door_Close" MaxAttenuation="5.000000"/>
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\Door_Open" MaxAttenuation="5.000000"/>
+				<Event Id="998053453" Name="Engine_Off" ObjectPath="\Events\Default Work Unit\Engine_Off"/>
+				<Event Id="2578282063" Name="Fridge_Close" ObjectPath="\Events\Default Work Unit\Fridge_Close" MaxAttenuation="5.000000"/>
+				<Event Id="2916123785" Name="Fridge_Open" ObjectPath="\Events\Default Work Unit\Fridge_Open" MaxAttenuation="5.000000"/>
+				<Event Id="2440369719" Name="Garage_Close" ObjectPath="\Events\Default Work Unit\Garage_Close"/>
+				<Event Id="633390694" Name="Glass_Close" ObjectPath="\Events\Default Work Unit\Glass_Close" MaxAttenuation="10.000000"/>
+				<Event Id="291040174" Name="Glass_Door" ObjectPath="\Events\Default Work Unit\Glass_Door" MaxAttenuation="10.000000"/>
+				<Event Id="543766455" Name="Television_On" ObjectPath="\Events\Default Work Unit\Television_On"/>
+				<Event Id="580245626" Name="Toilet" ObjectPath="\Events\Default Work Unit\Toilet" MaxAttenuation="5.000000"/>
+				<Event Id="2594811980" Name="Water_Run" ObjectPath="\Events\Default Work Unit\Water_Run" MaxAttenuation="5.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="51814804" Language="SFX">
+					<ShortName>VibeTone4.wav</ShortName>
+					<Path>SFX\VibeTone4_9E69E797.wem</Path>
+				</File>
+				<File Id="154631321" Language="SFX">
+					<ShortName>FootstepsMarble 6017_66_1 EDIT.wav</ShortName>
+					<Path>SFX\FootstepsMarble 6017_66_1 EDIT_9E69E797.wem</Path>
+				</File>
+				<File Id="233413396" Language="SFX">
+					<ShortName>DoorRefrigerator 6048_49_1.wav</ShortName>
+					<Path>SFX\DoorRefrigerator 6048_49_1_9E69E797.wem</Path>
+				</File>
+				<File Id="237481061" Language="SFX">
+					<ShortName>FootstepsConcrete 6016_06_1 EDIT2.wav</ShortName>
+					<Path>SFX\FootstepsConcrete 6016_06_1 EDIT2_9E69E797.wem</Path>
+				</File>
+				<File Id="260153768" Language="SFX">
+					<ShortName>ChairCouch 6010_75_1.wav</ShortName>
+					<Path>SFX\ChairCouch 6010_75_1_9E69E797.wem</Path>
+				</File>
+				<File Id="314824345" Language="SFX">
+					<ShortName>DoorPatio 6048_47_2.wav</ShortName>
+					<Path>SFX\DoorPatio 6048_47_2_9E69E797.wem</Path>
+				</File>
+				<File Id="315914697" Language="SFX">
+					<ShortName>WaterFountain 6060_49_1.wav</ShortName>
+					<Path>SFX\WaterFountain 6060_49_1_9E69E797.wem</Path>
+				</File>
+				<File Id="317251721" Language="SFX">
+					<ShortName>ToiletUrinal 6069_03.wav</ShortName>
+					<Path>SFX\ToiletUrinal 6069_03_9E69E797.wem</Path>
+				</File>
+				<File Id="323801357" Language="SFX">
+					<ShortName>TRK_Land Rover_BBC36_21_04.wav</ShortName>
+					<Path>SFX\TRK_Land Rover_BBC36_21_04_9E69E797.wem</Path>
+				</File>
+				<File Id="367363256" Language="SFX">
+					<ShortName>ComputerKeyboard3 6103_72_1.wav</ShortName>
+					<Path>SFX\ComputerKeyboard3 6103_72_1_9E69E797.wem</Path>
+				</File>
+				<File Id="396276788" Language="SFX">
+					<ShortName>VibeTone2.wav</ShortName>
+					<Path>SFX\VibeTone2_9E69E797.wem</Path>
+				</File>
+				<File Id="429089899" Language="SFX">
+					<ShortName>Television 6058_71_1.wav</ShortName>
+					<Path>SFX\Television 6058_71_1_9E69E797.wem</Path>
+				</File>
+				<File Id="599411685" Language="SFX">
+					<ShortName>DoorPatio 6018_26_2.wav</ShortName>
+					<Path>SFX\DoorPatio 6018_26_2_9E69E797.wem</Path>
+				</File>
+				<File Id="667181505" Language="SFX">
+					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
+					<Path>SFX\DoorRefrigerator 6048_49_2_9E69E797.wem</Path>
+				</File>
+				<File Id="811170640" Language="SFX">
+					<ShortName>VibeTone1.wav</ShortName>
+					<Path>SFX\VibeTone1_9E69E797.wem</Path>
+				</File>
+				<File Id="825453000" Language="SFX">
+					<ShortName>DoorWood 6018_19_3.wav</ShortName>
+					<Path>SFX\DoorWood 6018_19_3_9E69E797.wem</Path>
+				</File>
+				<File Id="870425651" Language="SFX">
+					<ShortName>DoorWood 6018_19_4.wav</ShortName>
+					<Path>SFX\DoorWood 6018_19_4_9E69E797.wem</Path>
+				</File>
+				<File Id="881905503" Language="SFX">
+					<ShortName>AMB_Australia, Resident._7010_06_01.wav</ShortName>
+					<Path>SFX\AMB_Australia, Resident._7010_06_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="882258353" Language="SFX">
+					<ShortName>FootstepsDirt 6016_87_1 EDIT.wav</ShortName>
+					<Path>SFX\FootstepsDirt 6016_87_1 EDIT_9E69E797.wem</Path>
+				</File>
+				<File Id="909614393" Language="SFX">
+					<ShortName>VibeTone3.wav</ShortName>
+					<Path>SFX\VibeTone3_9E69E797.wem</Path>
+				</File>
+				<File Id="983020588" Language="SFX">
+					<ShortName>DoorGarage 6048_22_2.wav</ShortName>
+					<Path>SFX\DoorGarage 6048_22_2_9E69E797.wem</Path>
+				</File>
+				<File Id="991272833" Language="SFX">
+					<ShortName>VibeToneLast.wav</ShortName>
+					<Path>SFX\VibeToneLast_9E69E797.wem</Path>
+				</File>
+				<File Id="1028196894" Language="SFX">
+					<ShortName>Birds 6038_08.wav</ShortName>
+					<Path>SFX\Birds 6038_08_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
